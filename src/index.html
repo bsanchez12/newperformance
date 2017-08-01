@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="4B For Beyond">
+    <meta name="keyword" content="4Beyond, TeOrienta, te orienta, performance">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>4B For Beyond</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-reset.css" rel="stylesheet" />
+    <!--external css-->    
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/performancespe.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet" />	
+
+  	<base href="/">
+</head>
+<body>
+  <section id="container" >
+      <header class="header white-bg" style="z-index:2000">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Ocultar / mostrar menú"></div>
+              </div>
+            <a href="index.html" class="logo"><img src="../assets/img/logo_performance.png"></a>
+            <div class="top-nav ">
+                <!--search & user info start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <img alt="" src="../assets/img/avatar1_small.jpg">
+                            <span class="username">Jhon Doue</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li><a href="javascript:;"><i class=" fa fa-suitcase"></i>Perfil</a></li>
+                            <li><a href="javascript:;"><i class="fa fa-cog"></i> Configuraciones</a></li>
+                            <li><a href="javascript:;"><i class="fa fa-bell-o"></i> Notificaciones</a></li>
+                            <li><a href="javascript:;"><i class="fa fa-key"></i> Cerrar sesion</a></li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!--search & user info end-->
+            </div>
+      </header>
+
+      <aside>          
+           <div id="sidebar" class="visible-md visible-lg visible-sm" style="padding-top:70px; border-right:solid; 
+          border-right-width:1px; border-right-color:#FFF; z-index:1000">
+              <div id="Menu" class="menuOpt"  onClick="showMenu('Menu')" style="top:70px">
+                      <div style="text-align:center">
+                        <img src="../assets/img/menu.png" width="97" height="80" style="vertical-align:middle">
+                        <br> 
+                        Menú
+                      </div>
+                      <div class="submenuOpt" id="subMenu" style="display:none">
+                          <a href="javascript:;" class="menuOptLink">Inicio</a><br>
+                          <a href="javascript:;" class="menuOptLink">Buscadores</a><br>
+                          <a href="javascript:;" class="menuOptLink">Competencias</a><br>
+                          <a href="javascript:;" class="menuOptLink">Nivel Edcativo</a><br>
+                          <a href="javascript:;" class="menuOptLink">Cargos</a><br>
+                          <a href="javascript:;" class="menuOptLink">Asignación de Competencias <br> &nbsp;&nbsp;&nbsp;a Cargos</a><br>
+                          <a href="javascript:;" class="menuOptLink">Equipos</a><br>
+                          <a href="javascript:;" class="menuOptLink">E-Learning</a><br>
+                      </div>
+                </div>
+                 <div id="Admin" class="menuOpt"  onClick="showMenu('Admin')" style="top:210px">
+                    <div style="text-align:center">
+                      <img src="../assets/img/admin.png" width="97" height="80" style="vertical-align:middle">
+                      <br> 
+                      Administrar
+                    </div>
+                      <div class="submenuOpt2" id="subAdmin" style="display:none">
+                        <a href="javascript:;" class="menuOptLink">Prestadores</a><br>
+                        <a href="javascript:;" class="menuOptLink">Roles</a><br>
+                        <a href="javascript:;" class="menuOptLink">Roles y permisos</a><br>
+                        <a href="javascript:;" class="menuOptLink">Usuarios</a>
+                      </div>
+                </div>
+               <div id="Reporte" class="menuOpt"  onClick="showMenu('Reporte')" style="top:350px">
+                    <div style="text-align:center">
+                      <img src="../assets/img/reporte.png" width="97" height="80" style="vertical-align:middle">
+                      <br> 
+                      Reportes
+                    </div>
+                      <div class="submenuOpt3" id="subReporte" style="display:none" >
+                         <a href="javascript:;" class="menuOptLink">Reporte General</a><br>
+                         <a href="javascript:;" class="menuOptLink">Totales</a><br>
+                         <a href="javascript:;" class="menuOptLink">Resultados buscadores</a><br>
+                        <a href="javascript:;" class="menuOptLink">Resultados buscadores Vs cargo</a><br>
+                      </div>
+                </div>
+            </div>     
+      </aside>      
+
+<!--main content start-->
+<section id="main-content" class="parallax-window" data-parallax="scroll" data-image-src="../assets/img/fondo.jpg">
+    <app-perfomancespe>Loading...</app-perfomancespe> 
+</section>
+
+   <!--footer start-->
+  <footer class="site-footer">
+    <div class="text-center">
+        2017 &copy; Te Orienta by 4B ForBeyond  .
+        <a href="#" class="go-top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </div>
+  </footer>
+  <!--footer end-->
+</section>
+  
+  <!--external js-->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/parallax/parallax.js"></script>
+    <script src="assets/js/common-scripts.js"></script>
+    <script> $(document).ready(function(){
+      $( ".hijo:odd" ).addClass("grid-impar");
+        $( ".hijo:even" ).css( "background-color", "white" );  
+      $( ".grid-impar > div>a:even" ).addClass( "blanco" ); 
+      $( ".hijo > div>a:even" ).addClass( "gris" );   
+      });
+    </script>
+</body>
+</html>
